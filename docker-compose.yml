@@ -1,0 +1,16 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:8.0
+    environment:
+      - MYSQL_ROOT_PASSWORD=docker
+      - MYSQL_PASSWORD=docker
+      - MYSQL_USER=docker
+      - MYSQL_DATABASE=scrapy
+    volumes:
+      - storage:/var/lib/mysql
+    ports:
+      - "3306:3306"
+
+volumes:
+  storage:
