@@ -1,4 +1,4 @@
-from typing import List, ClassVar
+from typing import List
 
 from orator import DatabaseManager
 from orator import Model
