@@ -1,8 +1,8 @@
 # scrapy-orm
 
-Scrapy sample code using with Orator (ORM).
-https://scrapy.org/
-https://orator-orm.com/
+Scrapy sample code using with Orator (ORM).  
+https://scrapy.org/  
+https://orator-orm.com/  
 
 ## Requirements
 - Python 3.4+
