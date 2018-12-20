@@ -32,6 +32,7 @@ $ docker-compose up -d
 
 ## Run spider
 
+`scraping_hub` is spider for https://blog.scrapinghub.com/.
 ```shell
 $ cd scrapy-orm/crawlers
 $ scrapy crawl scraping_hub
