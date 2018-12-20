@@ -1,8 +1,0 @@
-databases:
-  mysql:
-    driver: mysql
-    host: localhost
-    database: scrapy
-    user: docker
-    password: docker
-    prefix: ''
